@@ -1,69 +1,83 @@
 function generateShop() {
-  var weapons = [
-    {name: "Short Sword", rarity: "common"},
-    {name: "Long Sword", rarity: "uncommon"},
-    {name: "Great Sword", rarity: "rare"}
-  ];
-  
-  var armours = [
-    {name: "Leather Armour", rarity: "common"},
-    {name: "Chainmail Armour", rarity: "uncommon"},
-    {name: "Plate Armour", rarity: "rare"}
-  ];
-  
-  var shop = [];
-  var size = document.getElementById("shopSize").value;
-  var commonChance = 90;
-  var uncommonChance = 50;
-  var rareChance = 10;
-  
-  if (size === "normal") {
-    commonChance = 50;
-    uncommonChance = 30;
-    rareChance = 5;
-  } else if (size === "well-stocked") {
-    commonChance = 20;
-    uncommonChance = 10;
-    rareChance = 2;
-  }
-  
-  for (var i = 0; i < 10; i++) {
-    var weaponRarity = pickRarity(commonChance, uncommonChance, rareChance);
-    var armourRarity = pickRarity(commonChance, uncommonChance, rareChance);
-    var weapon = pickItemByRarity(weapons, weaponRarity);
-    var armour = pickItemByRarity(armours, armourRarity);
-    shop.push(weapon);
-    shop.push(armour);
-  }
-  
-  displayShop(shop);
+  fetch('weapons.tsv')
+    .then(response => response.text())
+    .then(data => {
+      const weapons = parseTsv(data);
+      const shop = [];
+      const size = document.getElementById("shopSize").value;
+      let commonChance = 90;
+      let uncommonChance = 50;
+      let rareChance = 10;
+
+      if (size === "normal") {
+        commonChance = 50;
+        uncommonChance = 30;
+        rareChance = 5;
+      } else if (size === "well-stocked") {
+        commonChance = 20;
+        uncommonChance = 10;
+        rareChance = 2;
+      }
+
+      for (let i = 0; i < 10; i++) {
+        const weaponRarity = pickRarity(commonChance, uncommonChance, rareChance);
+        const weapon = pickItemByRarity(weapons, weaponRarity);
+        shop.push(weapon);
+      }
+
+      displayShop(shop);
+    })
+    .catch(error => console.log(error));
+}
+
+function parseTsv(tsv) {
+  const lines = tsv.split('\n');
+  const headers = lines.shift().split('\t');
+  return lines.map(line => {
+    const values = line.split('\t');
+    return headers.reduce((object, header, index) => {
+      object[header] = values[index];
+      return object;
+    }, {});
+  });
 }
 
 function pickRarity(commonChance, uncommonChance, rareChance) {
-  var rarity = Math.floor(Math.random() * 100);
+  const rarity = Math.floor(Math.random() * 100);
   if (rarity < commonChance) {
-    return "common";
+    return "Common";
   } else if (rarity < uncommonChance) {
-    return "uncommon";
+    return "Uncom";
   } else {
-    return "rare";
+    return "Rare";
   }
 }
 
 function pickItemByRarity(items, rarity) {
-  var itemsByRarity = items.filter(function(item) {
-    return item.rarity === rarity;
+  const itemsByRarity = items.filter(item => {
+    return item.RARITY === rarity;
   });
-  var randomIndex = Math.floor(Math.random() * itemsByRarity.length);
+  const randomIndex = Math.floor(Math.random() * itemsByRarity.length);
   return itemsByRarity[randomIndex];
 }
 
 function displayShop(shop) {
-  var shopList = document.getElementById("shopList");
+  const shopList = document.getElementById("shopList");
   shopList.innerHTML = "";
-  for (var i = 0; i < shop.length; i++) {
-    var listItem = document.createElement("li");
-    listItem.innerText = shop[i].name;
-    shopList.appendChild(listItem);
+  for (let i = 0; i < shop.length; i++) {
+    const row = document.createElement("tr");
+    const nameCell = document.createElement("td");
+    nameCell.innerText = shop[i].WEAPON;
+    row.appendChild(nameCell);
+    const damageCell = document.createElement("td");
+    damageCell.innerText = shop[i].DAMAGE;
+    row.appendChild(damageCell);
+    const costCell = document.createElement("td");
+    costCell.innerText = shop[i].PRICE;
+    row.appendChild(costCell);
+    const featuresCell = document.createElement("td");
+    featuresCell.innerText = shop[i].FEATURES;
+    row.appendChild(featuresCell);
+    shopList.appendChild(row);
   }
 }
