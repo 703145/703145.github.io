@@ -1,0 +1,5 @@
+WEAPON	RARITY	PRICE	GRIP	BONUS	DAMAGE	RANGE	WEIGHT	FEATURES
+Knuckledusters	Common	1	1H	1	1	ARM	Tiny	Blunt, Unarmed
+Knuckledusters	Uncom	3	1H	1	1	ARM	Light	Tiny, Blunt, Unarmed
+Knuckledusters	Rare	4	1H	1	1	ARM	Normal	Tiny, Blunt, Unarmed
+Knuckledusters	Epic	73	1H	1	1	ARM	Heavy	Tiny, Blunt, Unarmed
