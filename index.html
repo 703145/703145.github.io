@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Shop Weapon Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
+      body {
+        font-family: 'IM Fell Great Primer', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fantasy Shop Weapon Generator</h1>
+      <form>
+        <div class="form-group">
+          <label for="shop-type">Shop Type:</label>
+          <select class="form-control" id="shop-type">
+            <option value="poor">Poorly Stocked</option>
+            <option value="normal" selected>Normal</option>
+            <option value="well-stocked">Well Stocked</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="generateShop()">Generate Shop</button>
+      </form>
+      <div id="shop-output"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
