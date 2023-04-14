@@ -1,4 +1,3 @@
-
   function generateShop() {
     var weapons = [
       {name: "Short Sword", rarity: "common"},
@@ -13,6 +12,7 @@
     ];
     
     var shop = [];
+console.log(shopType);
     var size = document.getElementById("shopSize").value;
     var commonChance = 90;
     var uncommonChance = 50;
