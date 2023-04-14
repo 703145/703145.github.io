@@ -1,24 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
-
 body {
-  font-family: "IM Fell Great Primer", serif;
-  background-color: #ffffff;
+  font-family: 'IM Fell Great Primer', serif;
+  background-color: #fff;
+  color: #000;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
+}
+
+.container {
   margin-top: 50px;
 }
 
-form {
-  text-align: center;
-  margin-top: 50px;
+.btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+  border: none;
 }
 
-select {
-  margin-top: 20px;
+.btn:hover {
+  background-color: #fff;
+  color: #000;
 }
 
-button {
-  margin-top: 20px;
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-4.offset-md-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
