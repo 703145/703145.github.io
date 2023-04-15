@@ -50,6 +50,7 @@ Next, it uses the map() method to transform each line of the TSV into an object 
 
 Finally, the map() method returns an array of objects representing each line in the TSV. */
 
+/*
 function parseTsv(tsv) {
   const lines = tsv.split('\n');
   const headers = lines.shift().split('\t');
@@ -62,19 +63,24 @@ function parseTsv(tsv) {
     return object;
   });
 }
-/*
+*/
 function parseTsv(tsv) {
   const lines = tsv.split('\n');
   const headers = lines.shift().split('\t');
   return lines.map(line => {
     const values = line.split('\t');
-    return headers.reduce((object, header, index) => {
-      object[header] = values[index];
-      return object;
-    }, {});
+    const object = {};
+    for (let i = 0; i < headers.length; i++) {
+      if (headers[i] === "FEATURES") {
+        object[headers[i]] = values[i].split(",").map(feature => feature.trim());
+      } else {
+        object[headers[i]] = values[i];
+      }
+    }
+    return object;
   });
 }
-*/
+
 
 function pickRarity(commonChance, uncommonChance, rareChance) {
   const rarity = Math.floor(Math.random() * 100);
