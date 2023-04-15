@@ -44,7 +44,25 @@ function generateShop() {
     .catch(error => console.log(error));
 }
 
+/* The new function starts by splitting the TSV file into an array of lines using the split() method with the newline character as the delimiter. Then it uses the shift() method to remove the first line from the array and split it into an array of column headers.
 
+Next, it uses the map() method to transform each line of the TSV into an object with properties corresponding to each column header. For each line, it splits the values using the tab character as the delimiter and then uses the reduce() method to create an object with properties corresponding to each column header and values corresponding to the values in that line.
+
+Finally, the map() method returns an array of objects representing each line in the TSV. */
+
+function parseTsv(tsv) {
+  const lines = tsv.split('\n');
+  const headers = lines.shift().split('\t');
+  return lines.map(line => {
+    const values = line.split('\t');
+    const object = {};
+    for (let i = 0; i < headers.length; i++) {
+      object[headers[i]] = values[i];
+    }
+    return object;
+  });
+}
+/*
 function parseTsv(tsv) {
   const lines = tsv.split('\n');
   const headers = lines.shift().split('\t');
@@ -56,6 +74,7 @@ function parseTsv(tsv) {
     }, {});
   });
 }
+*/
 
 function pickRarity(commonChance, uncommonChance, rareChance) {
   const rarity = Math.floor(Math.random() * 100);
@@ -79,6 +98,20 @@ function pickItemByRarity(items, rarity) {
 function displayShop(shop) {
   const shopList = document.getElementById("shopList");
   shopList.innerHTML = "";
+
+  // Create the table header row
+  const headerRow = document.createElement("tr");
+  const headers = ["PRICE", "GRIP", "WEAPON", "BONUS", "DAMAGE", "RANGE", "WEIGHT", "FEATURE"];
+  for (let i = 0; i < headers.length; i++) {
+    const headerCell = document.createElement("th");
+    headerCell.innerText = headers[i];
+    headerCell.style.textTransform = "uppercase";
+    headerCell.style.fontSize = "10px";
+    headerCell.style.fontVariant = "small-caps";
+    headerRow.appendChild(headerCell);
+  }
+  shopList.appendChild(headerRow);
+
   for (let i = 0; i < shop.length; i++) {
     const row = document.createElement("tr");
 
