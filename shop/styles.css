@@ -102,7 +102,7 @@ td:nth-child(8) {
   align-items: flex-end;
 }
 
-.header-image-top h1 {
+.header-image-top h1, h2 {
   margin-left: 10%;
   margin-top: 10%;
   color: black;
