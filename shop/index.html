@@ -10,10 +10,12 @@
   <title>Random Shop Generator!</title>
 </head>
 <body onload="generateShop()">
-  <div class="header-image"></div>
-  <div class="container">
+  <div class="header-image-top">
     <h2>Forbidden Lands</h2>
     <h1>Village supply generator</h1>
+  </div>
+
+  <div class="container">
     <div class="row">
       <div class="col-md-4">
         <button class="btn btn-lg btn-block mx-auto" onclick="generateShop()">Generate Shop</button>
@@ -23,31 +25,29 @@
           <!-- <tbody id="shopList">
           </tbody> -->
         </table>
-  
-        <h2>Settings:</h2>
-        <div class="settings-wrapper">
-          Supply: 
-          <select id="shopSize" class="form-select mb-3">
-            <option value="normal">Normal Shop</option>
-            <option value="well-stocked">Well-Stocked Shop</option>
-          </select>
-          Culture:
-          <select id="culture" class="form-select mb-3">
-            <option value="eländer">Eländer</option>
-            <option value="aslene">Aslene</option>
-          </select>
-        </div>
+
       </div>
     </div>
+  </div>
     
+  <div class="header-image-bottom">
+    <h2>Settings:</h2>
+    <div class="settings-wrapper">
+      Supply: 
+      <select id="shopSize" class="form-select mb-3">
+        <option value="normal">Normal Shop</option>
+        <option value="well-stocked">Well-Stocked Shop</option>
+      </select>
+      Culture:
+      <select id="culture" class="form-select mb-3">
+        <option value="eländer">Eländer</option>
+        <option value="aslene">Aslene</option>
+      </select>
+    </div>
     <br>
     <b>How to use:</b> Screen grab. Print or paste into your VTT. Profit. 
     <br>by Tobias Nyblom 2023 .........
-    
   </div>
-  
-
-
 
   <script src="script.js"></script>
 </body>
