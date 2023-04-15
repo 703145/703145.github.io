@@ -10,6 +10,7 @@ h1, h2, h3 {
 
 .container {
   margin-top: 50px;
+  text-align: center;
 }
 
 .btn {
