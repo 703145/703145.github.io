@@ -40,10 +40,14 @@ table {
   margin-top: 20px;
 }
 
-th.weapon-name {
+table td.left-align {
   text-align: left;
 }
 
-td {
+table td:not(.weapon-name):not(.features) {
+  text-align: center;
+}
+
+table th:not(.weapon-name):not(.features) {
   text-align: center;
 }
