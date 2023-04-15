@@ -109,6 +109,7 @@ td:nth-child(8) {
   font-size: 3rem;
   font-family: 'IM Fell Great Primer', serif;
   text-shadow: 2px 2px #ffffff;
+  text-align: center;
 }
 
 .header-image-bottom {
@@ -125,4 +126,5 @@ td:nth-child(8) {
   font-size: 2rem;
   font-family: 'IM Fell Great Primer', serif;
   text-shadow: 2px 2px #422222;
+  text-align: center;
 }
