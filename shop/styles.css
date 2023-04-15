@@ -116,6 +116,7 @@ td:nth-child(8) {
   background-image: url('village-bottom.jpg');
   background-repeat: no-repeat;
   background-position: center center;
+  color: white;
 }
 
 .header-image-bottom h2 {
@@ -123,6 +124,5 @@ td:nth-child(8) {
   color: white;
   font-size: 2rem;
   font-family: 'IM Fell Great Primer', serif;
-  text-emphasis-color: #000000;
   text-shadow: 2px 2px #422222;
 }
