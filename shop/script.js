@@ -148,12 +148,16 @@ function displayShop(shop) {
     }
     row.appendChild(weightCell);
 
-    const featureCell = document.createElement("td");
-    const featureColumns = Object.keys(shop[i]).filter(column => column.startsWith("FEATURES"));
-    const features = featureColumns.map(column => shop[i][column]).join(", ");
-    featureCell.innerText = features;
-    row.appendChild(featureCell);
-
+    const featuresCell = document.createElement("td");
+    const features = [];
+    for (let prop in shop[i]) {
+      if (prop.startsWith("FEATURES")) {
+        features.push(shop[i][prop]);
+      }
+    }
+    featuresCell.innerText = features.join(", ");
+    row.appendChild(featuresCell);
+    
     shopList.appendChild(row);
   }
 }
