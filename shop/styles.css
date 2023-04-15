@@ -36,18 +36,18 @@ h1, h2, h3 {
   align-items: flex-start;
 }
 
-table {
-  margin-top: 20px;
-}
-
 table td.left-align {
   text-align: left;
 }
 
-table td:not(.weapon-name):not(.features) {
+table {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
-table th:not(.weapon-name):not(.features) {
-  text-align: center;
+table th.left-align,
+table td.left-align {
+  text-align: left;
 }
