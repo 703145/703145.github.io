@@ -47,3 +47,11 @@ table th.left-align,
 table td.left-align {
   text-align: left;
 }
+
+.header-image {
+  height: 300px;
+  background-image: url('village.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
