@@ -72,11 +72,7 @@ function parseTsv(tsv) {
     const values = line.split('\t');
     const object = {};
     for (let i = 0; i < headers.length; i++) {
-      if (headers[i] === "FEATURES") {
-        object[headers[i]] = values[i].split(",").map(feature => feature.trim());
-      } else {
         object[headers[i]] = values[i];
-      }
     }
     return object;
   });
