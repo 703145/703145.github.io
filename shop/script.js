@@ -63,6 +63,7 @@ function parseTsv(tsv) {
     return object;
   });
 }
+
 */
 function parseTsv(tsv) {
   const lines = tsv.split('\n');
@@ -156,9 +157,10 @@ function displayShop(shop) {
 
     const featuresCell = document.createElement("td");
     const features = [];
-    for (const [key, value] of Object.entries(shop[i])) {
-      if (key.startsWith("FEATURES")) {
-        features.push(value);
+    for (let j = 1; j <= 5; j++) {
+      const key = "FEATURES" + j;
+      if (shop[i][key]) {
+        features.push(shop[i][key]);
       }
     }
     featuresCell.innerText = features.join(", ");
@@ -167,3 +169,4 @@ function displayShop(shop) {
     shopList.appendChild(row);
   }
 }
+
