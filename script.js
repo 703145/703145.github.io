@@ -8,27 +8,42 @@ function generateShop() {
       let commonChance = 90;
       let uncommonChance = 50;
       let rareChance = 10;
+      let maxItems = 4;
 
       if (size === "normal") {
         commonChance = 50;
         uncommonChance = 30;
         rareChance = 5;
+        maxItems = 7;
       } else if (size === "well-stocked") {
         commonChance = 20;
         uncommonChance = 10;
         rareChance = 2;
+        maxItems = 10;
       }
 
-      for (let i = 0; i < 10; i++) {
-        const weaponRarity = pickRarity(commonChance, uncommonChance, rareChance);
-        const weapon = pickItemByRarity(weapons, weaponRarity);
-        shop.push(weapon);
-      }
+      const availableItems = weapons.filter(item => {
+        const rarity = item.RARITY;
+        const itemChance = rarity === "Common" ? commonChance : (rarity === "Uncom" ? uncommonChance : rareChance);
+        return Math.floor(Math.random() * 100) < itemChance;
+      });
 
-      displayShop(shop);
+      if (availableItems.length === 0) {
+        const shopList = document.getElementById("shopList");
+        shopList.innerHTML = "Sorry sir, in this remote outpost no weapons are available at the moment.";
+      } else {
+        while (shop.length < maxItems && availableItems.length > 0) {
+          const randomIndex = Math.floor(Math.random() * availableItems.length);
+          const weapon = availableItems.splice(randomIndex, 1)[0];
+          shop.push(weapon);
+        }
+
+        displayShop(shop);
+      }
     })
     .catch(error => console.log(error));
 }
+
 
 function parseTsv(tsv) {
   const lines = tsv.split('\n');
