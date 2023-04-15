@@ -95,8 +95,6 @@ function displayShop(shop) {
     damageCell.innerText = shop[i].DAMAGE;
     row.appendChild(damageCell);
     
-
-    
     const featuresCell = document.createElement("td");
     featuresCell.innerText = shop[i].FEATURES;
     featuresCell.style.textAlign = "left"; // aligns the cell contents to the right
