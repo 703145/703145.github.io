@@ -82,4 +82,23 @@ td:nth-child(8) {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  position: relative; /* add this line to make the positioning work */
+}
+
+.header-image h2,
+.header-image h1 {
+  position: absolute;
+  top: 20px; /* adjust this value as needed */
+  left: 20px; /* adjust this value as needed */
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* add a shadow to the text to make it more readable */
+  font-family: 'IM Fell Great Primer', serif;
+}
+
+.header-image h2 {
+  font-size: 2rem;
+}
+
+.header-image h1 {
+  font-size: 4rem;
 }
