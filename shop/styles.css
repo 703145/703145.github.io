@@ -78,6 +78,7 @@ td:nth-child(8) {
 
 .header-image {
   height: 300px;
+  width: 120%;
   background-image: url('village-top.jpg');
   background-repeat: no-repeat;
   background-size: cover;
