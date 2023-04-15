@@ -36,10 +36,6 @@ h1, h2, h3 {
   align-items: flex-start;
 }
 
-table td.left-align {
-  text-align: left;
-}
-
 table {
   margin-top: 20px;
   margin-left: auto;
