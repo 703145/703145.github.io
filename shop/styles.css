@@ -71,6 +71,10 @@ td {
   padding-top: 1px;
 }
 
+td:nth-child(1) {
+  text-align: right;
+}
+
 td:nth-child(2) {
   font-size: 11px;
 }
