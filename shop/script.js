@@ -112,43 +112,43 @@ function displayShop(shop) {
   }
   shopList.appendChild(headerRow);
 
-  for (let i = 0; i < shop.length; i++) {
-    const row = document.createElement("tr");
-
-    const costCell = document.createElement("td");
-    costCell.innerText = shop[i].PRICE;
-    row.appendChild(costCell);
-
-    const gripCell = document.createElement("td");
-    gripCell.innerText = shop[i].GRIP;
-    row.appendChild(gripCell);
-
-    const nameCell = document.createElement("td");
-    nameCell.innerText = shop[i].WEAPON;
-    nameCell.style.textAlign = "left"; // aligns the cell contents to the left
-    row.appendChild(nameCell);
-    
-    const damageCell = document.createElement("td");
-    damageCell.innerText = shop[i].BONUS;
-    row.appendChild(damageCell);
-   
-    const damageCell = document.createElement("td");
-    damageCell.innerText = shop[i].DAMAGE;
-    row.appendChild(damageCell);
-    
-    const rangeCell = document.createElement("td");
-    rangeCell.innerText = shop[i].RANGE;
-    row.appendChild(rangeCell);
-    
-    const weightCell = document.createElement("td");
-    weightCell.innerText = shop[i].WEIGHT;
-    row.appendChild(weightCell);
-    
-    const featuresCell = document.createElement("td");
-    featuresCell.innerText = shop[i].FEATURES;
-    featuresCell.style.textAlign = "left"; // aligns the cell contents to the right
-    row.appendChild(featuresCell);
-    
-    shopList.appendChild(row);
+  function displayShop(shop) {
+    const shopList = document.getElementById("shopList");
+    shopList.innerHTML = "";
+    for (let i = 0; i < shop.length; i++) {
+      const row = document.createElement("tr");
+  
+      const costCell = document.createElement("td");
+      costCell.innerText = shop[i].PRICE;
+      row.appendChild(costCell);
+  
+      const nameCell = document.createElement("td");
+      nameCell.innerText = shop[i].WEAPON;
+      nameCell.style.textAlign = "left"; // aligns the cell contents to the left
+      row.appendChild(nameCell);
+      
+      const gripCell = document.createElement("td");
+      gripCell.innerText = shop[i].GRIP;
+      row.appendChild(gripCell);
+      
+      const damageCell = document.createElement("td");
+      damageCell.innerText = shop[i].DAMAGE;
+      row.appendChild(damageCell);
+      
+      const rangeCell = document.createElement("td");
+      rangeCell.innerText = shop[i].RANGE;
+      row.appendChild(rangeCell);
+      
+      const weightCell = document.createElement("td");
+      weightCell.innerText = shop[i].WEIGHT;
+      row.appendChild(weightCell);
+      
+      const featuresCell = document.createElement("td");
+      featuresCell.innerText = shop[i].FEATURES;
+      featuresCell.style.textAlign = "left"; // aligns the cell contents to the right
+      row.appendChild(featuresCell);
+      
+      shopList.appendChild(row);
+    }
   }
-}
+  
