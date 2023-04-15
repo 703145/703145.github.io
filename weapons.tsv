@@ -1,44 +1,43 @@
-WEAPON	GRIP	BONUS	DAMAGE	RANGE	PRICE	WEIGHT	FEATURES
-Unarmed	–	–	1	Arm	–	None	Blunt,
-Knuckledusters/(Gauntlet)*	1H	1	1	Arm	1	Tiny,	Tiny,
-Knife	1H	1	2*	Arm	1	Light,	Light,
-Dagger	1H	1	2*	Arm	2	Light,	Light,
-Parrying dagger	1H	1	2	Arm	6	Light,	Light,
-Shortsword	1H	1.5	2*	Arm	6	Normal	Edged,
-Swordbreaker*	1H	1.5	2	Arm	15	Normal	Edged,
-Scimitar/Sabre	1H	1.5	2	Arm	8	Normal	Edged,
-Falchion/Cutlass	1H	2	2	Arm	4	Normal	Edged,
-Broadsword/Armingsword	1H	2	2	Arm	10	Normal	Edged,
-Rapier	1H	2.5	2	Arm	25	Normal	Edged,
-Bastard sword	1H	2.5	2	Arm	18	Heavy,	Heavy,
-Longsword/Claymore	2H	+3	2	Arm	25	Heavy,	Heavy,
-Greatsword	2H	2.5	3	Arm	40	Heavy,	Heavy,
-Axe	1H	+1	2	Arm	2	Normal	Edged,
-Battle axe	1H	1.5	2	Arm	6	Heavy,	Heavy,
-Greataxe	2H	+2	3	Arm	24	Heavy,	Heavy,
-Mace	1H	1.5	2*	Arm	4	Normal	Blunt,
-Morningstar	1H	1	3*	Arm	8	Normal	Blunt
-Warhammer	1H	2	2	Arm	12	Normal	Blunt,
-Maul/Heavy Warhammer	2H	1.5	3	Arm	22	Heavy,	Heavy,
-Flail	1H	2	2	Arm*	16	Normal	Blunt,
-Two-handed flail	2H	+2.5	2	Near	20	Normal	Blunt,
-Wooden club	1H	+1	1	Arm	1	Normal	Blunt
-Large wooden club	2H	+1	2	Arm	2	Heavy,	Heavy,
-Staff	2H	+1	1	Near	1	Normal	Blunt,
-Short spear	1H	+1	2*	Near	2	Normal	Pointed,
-Long spear	2H	+2	2*	Near	4	Normal	Pointed,
-Pike/Lance	2H	3	2	Near	12	Heavy,	Heavy,
-Halberd/Bill	2H	3	2	Near	30	Heavy,	Heavy,
-Trident	2H	+1.5	2	Near	6	Normal	Pointed,
-Large shield	1H	+2	–	–	15	Heavy	-1 Stealth
-Rock	1H	–	1	Near	–	Light,	Light,
-Throwing knife	1H	1	1	Near	1	Light,	Light,
-Throwing axe	1H	1	2	Near	2	Normal	Edged,
-Throwing spear	1H	1	2	Short	2	Normal	Pointed,
-Sling	1H**	1	1	Short	1	Light,	Light,
-Blowgun	1H	2	1	Near	3	Light,	Light,
-Short bow	2H	2	1	Short	6	Light,	Light,
-Longbow	2H	2.5	1	Long	12	Normal	Pointed,
-Composite bow	2H	3	1	Long	30	Light,	Light,
-Crossbow	2H	3	2	Short	24	Normal	Pointed,
-Windlass crossbow	2H	3	3	Long	40	Heavy,	Heavy,
+WEAPON	RARITY	GRIP	BONUS	DAMAGE	RANGE	PRICE	WEIGHT	FEATURES	FEATURES	FEATURES	FEATURES	FEATURES
+Gauntlet	Common	1H	1	1	Arm	1	Light,	Tiny,	Blunt,	Unarmed		
+Knife	Common	1H	1	2*	Arm	1	Light,	Light,	Pointed			
+Dagger	Common	1H	1	2*	Arm	2	Light,	Light,	Edged,	Pointed		
+Parrying dagger	Common	1H	1	2	Arm	6	Light,	Light,	Pointed,	Parrying,	Parrying,	
+Shortsword	Common	1H	1.5	2*	Arm	6	Normal	Edged,	Pointed,	Parrying		
+Swordbreaker*	Common	1H	1.5	2	Arm	15	Normal	Edged,	Pointed,	Parrying,	Trapping	
+Scimitar/Sabre	Common	1H	1.5	2	Arm	8	Normal	Edged,	Pointed,	Parrying,	Hook	
+Falchion/Cutlass	Common	1H	2	2	Arm	4	Normal	Edged,	Pointed			
+Broadsword/Armingsword	Common	1H	2	2	Arm	10	Normal	Edged,	Pointed,	Parrying		
+Rapier	Common	1H	2.5	2	Arm	25	Normal	Edged,	Pointed,	Parrying		
+Bastard sword	Common	1H	2.5	2	Arm	18	Heavy,	Heavy,	Pointed,	Edged,	Parrying	
+Longsword/Claymore	Common	2H	+3	2	Arm	25	Heavy,	Heavy,	Pointed,	Edged,	Parrying	
+Greatsword	Common	2H	2.5	3	Arm	40	Heavy,	Heavy,	Pointed,	Edged,	Parrying	
+Axe	Common	1H	+1	2	Arm	2	Normal	Edged,	Hook,	Shield-breaker		
+Battle axe	Common	1H	1.5	2	Arm	6	Heavy,	Heavy,	Edged,	Hook,	Shield-breaker	
+Greataxe	Common	2H	+2	3	Arm	24	Heavy,	Heavy,	Edged,	Hook,	Shield-breaker	
+Mace	Common	1H	1.5	2*	Arm	4	Normal	Blunt,	Shield-breaker*			
+Morningstar	Common	1H	1	3*	Arm	8	Normal	Blunt				
+Warhammer	Common	1H	2	2	Arm	12	Normal	Blunt,	Pick*,	Hook,	Shield-breaker	
+Maul/Heavy Warhammer	Common	2H	1.5	3	Arm	22	Heavy,	Heavy,	Blunt,	Pick*,	Hook,	Shield-breaker
+Flail	Common	1H	2	2	Arm*	16	Normal	Blunt,	Chained*			
+Two-handed flail	Common	2H	+2.5	2	Near	20	Normal	Blunt,	Chained			
+Wooden club	Common	1H	+1	1	Arm	1	Normal	Blunt				
+Large wooden club	Common	2H	+1	2	Arm	2	Heavy,	Heavy,	Blunt			
+Staff	Common	2H	+1	1	Near	1	Normal	Blunt,	Parrying,	Hook		
+Short spear	Common	1H	+1	2*	Near	2	Normal	Pointed,	Polearm			
+Long spear	Common	2H	+2	2*	Near	4	Normal	Pointed,	Polearm			
+Pike/Lance	Common	2H	3	2	Near	12	Heavy,	Heavy,	Pointed,	Polearm,	Lengthy	
+Halberd/Bill	Common	2H	3	2	Near	30	Heavy,	Heavy,	Pointed,	Edged,	Hook,	Polearm
+Trident	Common	2H	+1.5	2	Near	6	Normal	Pointed,	Hook,	Trapping,	Polearm	
+Large shield	Common	1H	+2	–	–	15	Heavy	-1 Stealth				
+Rock	Common	1H	–	1	Near	–	Light,	Light,	Blunt			
+Throwing knife	Common	1H	1	1	Near	1	Light,	Light,	Pointed,	Melee		
+Throwing axe	Common	1H	1	2	Near	2	Normal	Edged,	Melee			
+Throwing spear	Common	1H	1	2	Short	2	Normal	Pointed,	Melee			
+Sling	Common	1H**	1	1	Short	1	Light,	Light,	Blunt,	Ready,	Stones/bullets	
+Blowgun	Common	1H	2	1	Near	3	Light,	Light,	Pointed,	Ready,	Blowgun darts	
+Short bow	Common	2H	2	1	Short	6	Light,	Light,	Pointed,	Ready,	Arrows	
+Longbow	Common	2H	2.5	1	Long	12	Normal	Pointed,	Ready,	Arrows		
+Composite bow	Common	2H	3	1	Long	30	Light,	Light,	Pointed,	Ready,	Arrows	
+Crossbow	Common	2H	3	2	Short	24	Normal	Pointed,	Load,	Quarrels/bolts		
+Windlass crossbow	Common	2H	3	3	Long	40	Heavy,	Heavy,	Pointed,	Load x2,	Quarrels/bolts	
