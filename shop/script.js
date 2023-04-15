@@ -101,7 +101,7 @@ function displayShop(shop) {
 
   // Create the table header row
   const headerRow = document.createElement("tr");
-  const headers = ["PRICE", "GRIP", "WEAPON", "BONUS", "DAMAGE", "RANGE", "WEIGHT", "FEATURE"];
+  const headers = ["PRICE", "GRIP", "WEAPON", "BONUS", "DAMAGE", "RANGE", "WEIGHT", "FEATURES"];
   for (let i = 0; i < headers.length; i++) {
     const headerCell = document.createElement("th");
     headerCell.innerText = headers[i];
@@ -149,7 +149,7 @@ function displayShop(shop) {
     row.appendChild(weightCell);
 
     const featureCell = document.createElement("td");
-    const featureColumns = Object.keys(shop[i]).filter(column => column.startsWith("FEATURE"));
+    const featureColumns = Object.keys(shop[i]).filter(column => column.startsWith("FEATURES"));
     const features = featureColumns.map(column => shop[i][column]).join(", ");
     featureCell.innerText = features;
     row.appendChild(featureCell);
