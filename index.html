@@ -1,41 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" integrity="sha512-h49bODUuV7PX2RnFbyJixup54LTVgN9ClX9pncjW3pwq3wsgfIwo60WEzR8eR1JQtkNg+OZlV9XpAxkrRHVKyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="styles.css">
-  <title>Random Shop Generator!</title>
-</head>
-<body>
-<div class="container">
-  <h1>Random Shop Generator</h1>
-  <h2>Select type of shop:</h2>
-  <div class="row">
-    <div class="col-md-4 offset-md-4">
-      <select id="shopSize" class="form-select mb-3">
-        <option value="normal">Normal Shop</option>
-        <option value="well-stocked">Well-Stocked Shop</option>
-      </select>
-      <button class="btn btn-lg btn-block" onclick="generateShop()">Generate Shop</button>
-      <table class="table mt-3">
-        <thead>
-          <tr>
-            <th>Weapon Name</th>
-            <th>Damage</th>
-            <th>Cost</th>
-            <th>Features</th>
-          </tr>
-        </thead>
-        <tbody id="shopList">
-        </tbody>
-      </table>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Tools for Forbidden Lands</title>
+    <style>
+      body {
+        font-family: "IM Fell Great Primer", serif;
+        color: black;
+        background-color: white;
+      }
+      h1 {
+        text-align: center;
+      }
+      .center {
+        text-align: center;
+      }
+      a {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tools for Forbidden Lands</h1>
+    <div class="center">
+      <a href="/shop/">Random shop generator</a>
     </div>
-  </div>
-</div>
-
-  <script src="script.js"></script>
-</body>
+  </body>
 </html>
