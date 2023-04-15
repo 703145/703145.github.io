@@ -83,6 +83,7 @@ function displayShop(shop) {
     const row = document.createElement("tr");
     const nameCell = document.createElement("td");
     nameCell.innerText = shop[i].WEAPON;
+    nameCell.style.textAlign = "left"; // aligns the cell contents to the left
     row.appendChild(nameCell);
     const damageCell = document.createElement("td");
     damageCell.innerText = shop[i].DAMAGE;
@@ -92,6 +93,7 @@ function displayShop(shop) {
     row.appendChild(costCell);
     const featuresCell = document.createElement("td");
     featuresCell.innerText = shop[i].FEATURES;
+    featuresCell.style.textAlign = "left"; // aligns the cell contents to the right
     row.appendChild(featuresCell);
     shopList.appendChild(row);
   }
