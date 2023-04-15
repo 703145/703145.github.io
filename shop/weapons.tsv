@@ -1,45 +1,45 @@
 WEAPON	Alternative name	SWEDISH	RARITY	GRIP	BONUS	DAMAGE	RANGE	PRICE	WEIGHT	PROFESSION	TALENT	ORC	ELF	FEATURES1	FEATURES2	FEATURES3	FEATURES4	FEATURES5
-Gauntlet	Knuckledusters	Knogjärn	Common	1H	1	1	Arm	1	Light	Smith	Unarmed			Tiny,	Blunt,	Unarmed		
-Knife	Knife	Kniv	Common	1H	1	2	Arm	1	Light	Smith	Knife			Light,	Pointed			
-Dagger	Dagger	Dolk	Common	1H	1	2	Arm	2	Light,	Smith	Knife		2	Light,	Edged,	Pointed		
-Parrying dagger	Parrying dagger	Parerdolk	Uncom	1H	1	2	Arm	6	Light	Smith	Knife			Light,	Pointed,	Parrying,	Parrying,	
-Shortsword	Shortsword	Kortsvärd	Common	1H	1.5	2	Arm	6	Normal	Smith	Sword			Edged,	Pointed,	Parrying		
-Swordbreaker	Swordbreaker	Svärdsbrytare	Rare	1H	1.5	2	Arm	15	Normal	Smith	Sword			Edged,	Pointed,	Parrying,	Trapping	
-Sabre	Scimitar/Sabre	Sabel	Common	1H	1.5	2	Arm	8	Normal	Smith	Sword	1		Edged,	Pointed,	Parrying,	Hook	
-Falchion	Falchion	Huggare	Common	1H	2	2	Arm	4	Normal	Smith	Sword	1		Edged,	Pointed			
-Broadsword	Broadsword	Bredsvärd	Common	1H	2	2	Arm	10	Normal	Smith	Sword			Edged,	Pointed,	Parrying		
-Rapier	Rapier	Värja	Rare	1H	2.5	2	Arm	25	Normal	Smith	Sword			Edged,	Pointed,	Parrying		
-Bastard sword	Bastard sword	Slagsvärd	Uncom	1H	2.5	2	Arm	18	Heavy	Smith	Sword			Heavy,	Pointed,	Edged,	Parrying	
-Longsword	Longsword/Claymore	Långsvärd	Uncom	2H	3	2	Arm	25	Heavy	Smith	Sword			Heavy,	Pointed,	Edged,	Parrying	
-Greatsword	Greatsword	Tvåhandssvärd	Common	2H	2.5	3	Arm	40	Heavy	Smith	Sword			Heavy,	Pointed,	Edged,	Parrying	
-Axe	Axe	Yxa	Common	1H	1	2	Arm	2	Normal	Smith	Axe			Edged,	Hook,	Shield-breaker		
-Battle axe	Battle axe	Stridsyxa	Common	1H	1.5	2	Arm	6	Heavy,	Smith	Axe			Heavy,	Edged,	Hook,	Shield-breaker	
-Greataxe	Greataxe	Tvåhandsyxa	Common	2H	2	3	Arm	24	Heavy,	Smith	Axe			Heavy,	Edged,	Hook,	Shield-breaker	
-Mace	Mace	Stridsklubba	Common	1H	1.5	2	Arm	4	Normal	Smith	Hammer			Blunt,	Shield-breaker*			
+Gauntlet	Knuckledusters	Knogjärn	Common	1H	1	1	Arm	1	Light	Smith	Unarmed			Blunt	Unarmed			
+Knife	Knife	Kniv	Common	1H	1	2	Arm	1	Light	Smith	Knife			Pointed				
+Dagger	Dagger	Dolk	Common	1H	1	2	Arm	2	Light,	Smith	Knife		2	Edged	Pointed			
+Parrying dagger	Parrying dagger	Parerdolk	Uncom	1H	1	2	Arm	6	Light	Smith	Knife			Pointed	Parrying	Parrying,		
+Shortsword	Shortsword	Kortsvärd	Common	1H	1.5	2	Arm	6	Normal	Smith	Sword			Edged	Pointed	Parrying		
+Swordbreaker	Swordbreaker	Svärdsbrytare	Rare	1H	1.5	2	Arm	15	Normal	Smith	Sword			Edged	Pointed	Parrying	Trapping	
+Sabre	Scimitar/Sabre	Sabel	Common	1H	1.5	2	Arm	8	Normal	Smith	Sword	1		Edged	Pointed	Parrying	Hook	
+Falchion	Falchion	Huggare	Common	1H	2	2	Arm	4	Normal	Smith	Sword	1		Edged	Pointed			
+Broadsword	Broadsword	Bredsvärd	Common	1H	2	2	Arm	10	Normal	Smith	Sword			Edged	Pointed	Parrying		
+Rapier	Rapier	Värja	Rare	1H	2.5	2	Arm	25	Normal	Smith	Sword			Edged	Pointed	Parrying		
+Bastard sword	Bastard sword	Slagsvärd	Uncom	1H	2.5	2	Arm	18	Heavy	Smith	Sword			Pointed	Edged	Parrying		
+Longsword	Longsword/Claymore	Långsvärd	Uncom	2H	3	2	Arm	25	Heavy	Smith	Sword			Pointed	Edged	Parrying		
+Greatsword	Greatsword	Tvåhandssvärd	Common	2H	2.5	3	Arm	40	Heavy	Smith	Sword			Pointed	Edged	Parrying		
+Axe	Axe	Yxa	Common	1H	1	2	Arm	2	Normal	Smith	Axe			Edged	Hook,	Shield-breaker		
+Battle axe	Battle axe	Stridsyxa	Common	1H	1.5	2	Arm	6	Heavy,	Smith	Axe			Edged	Hook	Shield-breaker		
+Greataxe	Greataxe	Tvåhandsyxa	Common	2H	2	3	Arm	24	Heavy,	Smith	Axe			Edged	Hook	Shield-breaker		
+Mace	Mace	Stridsklubba	Common	1H	1.5	2	Arm	4	Normal	Smith	Hammer			Blunt	Shield-breaker*			
 Morningstar	Morningstar	Morgonstjärna	Common	1H	1	3	Arm	8	Normal	Smith	Hammer			Blunt				
-Warhammer	Warhammer	Stridshammare	Common	1H	2	2	Arm	12	Normal	Smith	Hammer			Blunt,	Pick*,	Hook,	Shield-breaker	
-Maul	Maul/Heavy Warhammer	Tung stridshammare	Common	2H	1.5	3	Arm	22	Heavy,	Smith	Hammer			Heavy,	Blunt,	Pick*,	Hook,	Shield-breaker
-Flail	Flail	Stridsgissel	Common	1H	2	2	Arm*	16	Normal	Smith	Hammer			Blunt,	Chained*			
-Two-handed flail	Two-handed flail	Tungt stridsgissel	Uncom	2H	2.5	2	Near	20	Normal	Smith	Hammer			Blunt,	Chained			
+Warhammer	Warhammer	Stridshammare	Common	1H	2	2	Arm	12	Normal	Smith	Hammer			Blunt	Pick	Hook,	Shield-breaker	
+Maul	Maul/Heavy Warhammer	Tung stridshammare	Common	2H	1.5	3	Arm	22	Heavy,	Smith	Hammer			Blunt	Pick	Hook,	Shield-breaker	
+Flail	Flail	Stridsgissel	Common	1H	2	2	Arm*	16	Normal	Smith	Hammer			Blunt	Chained			
+Two-handed flail	Two-handed flail	Tungt stridsgissel	Uncom	2H	2.5	2	Near	20	Normal	Smith	Hammer			Blunt	Chained			
 Wooden club	Wooden club	Träklubba	Common	1H	1	1	Arm	1	Normal	Bowyer	Hammer			Blunt				
-Large club	Large wooden club	Tung träklubba	Common	2H	1	2	Arm	2	Heavy,	Bowyer	Hammer			Heavy,	Blunt			
-Staff	Staff	Stridsstav	Common	2H	1	1	Near	1	Normal	Bowyer	Staff			Blunt,	Parrying,	Hook		
+Large club	Large wooden club	Tung träklubba	Common	2H	1	2	Arm	2	Heavy,	Bowyer	Hammer			Blunt				
+Staff	Staff	Stridsstav	Common	2H	1	1	Near	1	Normal	Bowyer	Staff			Blunt,	Parrying	Hook		
 Short spear	Short spear	Kortspjut	Common	1H	1	2	Near	2	Normal	Smith	Spear			Pointed,	Polearm			
 Long spear	Long spear	Långspjut	Common	2H	2	2	Near	4	Normal	Smith	Spear			Pointed,	Polearm			
-Pike	Pike/Lance	Pik	Common	2H	3	2	Near	12	Heavy,	Smith	Spear			Heavy,	Pointed,	Polearm,	Lengthy	
-Halberd	Halberd/Bill	Hillebard	Common	2H	3	2	Near	30	Heavy,	Smith	Spear			Heavy,	Pointed,	Edged,	Hook,	Polearm
-Trident	Trident	Treudd	Common	2H	1.5	2	Near	6	Normal	Smith	Spear			Pointed,	Hook,	Trapping,	Polearm	
+Pike	Pike/Lance	Pik	Common	2H	3	2	Near	12	Heavy,	Smith	Spear			Pointed	Polearm	Lengthy		
+Halberd	Halberd/Bill	Hillebard	Common	2H	3	2	Near	30	Heavy,	Smith	Spear			Pointed	Edged	Hook	Polearm	
+Trident	Trident	Treudd	Common	2H	1.5	2	Near	6	Normal	Smith	Spear			Pointed	Hook	Trapping	Polearm	
 Small shield	Small shield	Liten sköld	Common	1H	2	–	–	15	Normal	Bowyer	Shield	1						
 Large shield	Large shield	Stor sköld	Common	1H	2	–	–	15	Heavy	Bowyer	Shield	1		-1 Stealth				
-Rock	Rock	Sten	Common	1H	0	1	Near	–	Light,	Smith	Thrown			Light,	Blunt			
-Throwing knife	Throwing knife	Kastkniv	Common	1H	1	1	Near	1	Light,	Smith	Thrown			Light,	Pointed,	Melee		
+Rock	Rock	Sten	Common	1H	0	1	Near	–	Light,	Smith	Thrown			Blunt				
+Throwing knife	Throwing knife	Kastkniv	Common	1H	1	1	Near	1	Light,	Smith	Thrown			Pointed	Melee			
 Throwing axe	Throwing axe	Kastyxa	Common	1H	1	2	Near	2	Normal	Smith	Thrown			Edged,	Melee			
-Throwing spear	Throwing spear	Kastspjut	Common	1H	1	2	Short	2	Normal	Smith	Harpoon	1		Pointed,	Melee			
-Harpoon	Harpoon	Harpun	Rare	1H	1	2	Short	4	Normal	Smith	Harpoon			Pointed,	Rope			
-Sling	Sling	Slunga	Common	1H**	1	1	Short	1	Light,	Smith	Thrown			Light,	Blunt,	Ready,	Stones/bullets	
-Blowgun	Blowgun	Blåsrör	Common	1H	2	1	Near	3	Light,	Smith				Light,	Pointed,	Ready,	Blowgun darts	
-Short bow	Short bow	Kortbåge	Common	2H	2	1	Short	6	Light,	Bowyer	Bow	1		Light,	Pointed,	Ready,	Arrows	
-Longbow	Longbow	Långbåge	Uncom	2H	2.5	1	Long	12	Normal	Bowyer	Bow			Pointed,	Ready,	Arrows		
-Composite bow	Composite bow	Kompositbåge	Rare	2H	3	1	Long	30	Light,	Bowyer	Bow			Light,	Pointed,	Ready,	Arrows	
-Crossbow	Crossbow	Armborst	Common	2H	3	2	Short	24	Normal	Bowyer	Bow			Pointed,	Load,	Quarrels/bolts		
-Windlass crossbow	Windlass crossbow	Ankarspes armborst	Common	2H	3	3	Long	40	Heavy,	Bowyer	Bow			Heavy,	Pointed,	Load x2,	Quarrels/bolts	
+Throwing spear	Throwing spear	Kastspjut	Common	1H	1	2	Short	2	Normal	Smith	Harpoon	1		Pointed	Melee			
+Harpoon	Harpoon	Harpun	Rare	1H	1	2	Short	4	Normal	Smith	Harpoon			Pointed	Rope			
+Sling	Sling	Slunga	Common	1H**	1	1	Short	1	Light,	Smith	Thrown			Blunt	Ready	Stones/bullets		
+Blowgun	Blowgun	Blåsrör	Common	1H	2	1	Near	3	Light,	Smith				Pointed	Ready	Blowgun darts		
+Short bow	Short bow	Kortbåge	Common	2H	2	1	Short	6	Light,	Bowyer	Bow	1		Pointed	Ready	Arrows		
+Longbow	Longbow	Långbåge	Uncom	2H	2.5	1	Long	12	Normal	Bowyer	Bow			Pointed	Ready	Arrows		
+Composite bow	Composite bow	Kompositbåge	Rare	2H	3	1	Long	30	Light,	Bowyer	Bow			Pointed	Ready	Arrows		
+Crossbow	Crossbow	Armborst	Common	2H	3	2	Short	24	Normal	Bowyer	Bow			Pointed	Load,	Quarrels/bolts		
+Windlass crossbow	Windlass crossbow	Ankarspes armborst	Common	2H	3	3	Long	40	Heavy,	Bowyer	Bow			Pointed	Load x2	Quarrels/bolts		
