@@ -105,10 +105,10 @@ td:nth-child(8) {
 .header-image-top h1 {
   margin-left: 10%;
   margin-top: 10%;
-  color: white;
+  color: black;
   font-size: 3rem;
   font-family: 'IM Fell Great Primer', serif;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px #ffffff;
 }
 
 .header-image-bottom {
