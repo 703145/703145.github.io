@@ -36,7 +36,6 @@ h1, h2, h3 {
   align-items: flex-start;
 }
 
-// =========== table
 table {
   margin-top: 20px;
   margin-left: auto;
@@ -63,7 +62,6 @@ td {
   padding-top: 1px;
 }
 
-// ====== image
 .header-image {
   height: 300px;
   background-image: url('village.jpg');
