@@ -1,17 +1,17 @@
-WEAPON	Alternative name	SWEDISH	RARITY	GRIP	BONUS	DAMAGE	RANGE	PRICE	WEIGHT	PROFESSION	TALENT	ORC		FEATURES	FEATURES	FEATURES	FEATURES	FEATURES
-Gauntlet	Knuckledusters	Knogjärn	Common	1H	1	1	Arm	1	Light,	Smith	Unarmed			Tiny,	Blunt,	Unarmed		
-Knife	Knife	Kniv	Common	1H	1	2	Arm	1	Light,	Smith	Knife			Light,	Pointed			
-Dagger	Dagger	Dolk	Common	1H	1	2	Arm	2	Light,	Smith	Knife			Light,	Edged,	Pointed		
-Parrying dagger	Parrying dagger	Parerdolk	Common	1H	1	2	Arm	6	Light,	Smith	Knife			Light,	Pointed,	Parrying,	Parrying,	
+WEAPON	Alternative name	SWEDISH	RARITY	GRIP	BONUS	DAMAGE	RANGE	PRICE	WEIGHT	PROFESSION	TALENT	ORC	ELF	FEATURES	FEATURES	FEATURES	FEATURES	FEATURES
+Gauntlet	Knuckledusters	Knogjärn	Common	1H	1	1	Arm	1	Light	Smith	Unarmed			Tiny,	Blunt,	Unarmed		
+Knife	Knife	Kniv	Common	1H	1	2	Arm	1	Light	Smith	Knife			Light,	Pointed			
+Dagger	Dagger	Dolk	Common	1H	1	2	Arm	2	Light,	Smith	Knife		2	Light,	Edged,	Pointed		
+Parrying dagger	Parrying dagger	Parerdolk	Common	1H	1	2	Arm	6	Light	Smith	Knife			Light,	Pointed,	Parrying,	Parrying,	
 Shortsword	Shortsword	Kortsvärd	Common	1H	1.5	2	Arm	6	Normal	Smith	Sword			Edged,	Pointed,	Parrying		
 Swordbreaker	Swordbreaker	Svärdsbrytare	Common	1H	1.5	2	Arm	15	Normal	Smith	Sword			Edged,	Pointed,	Parrying,	Trapping	
 Sabre	Scimitar/Sabre	Sabel	Common	1H	1.5	2	Arm	8	Normal	Smith	Sword	1		Edged,	Pointed,	Parrying,	Hook	
 Falchion	Falchion	Huggare	Common	1H	2	2	Arm	4	Normal	Smith	Sword	1		Edged,	Pointed			
 Broadsword	Broadsword	Bredsvärd	Common	1H	2	2	Arm	10	Normal	Smith	Sword			Edged,	Pointed,	Parrying		
 Rapier	Rapier	Värja	Common	1H	2.5	2	Arm	25	Normal	Smith	Sword			Edged,	Pointed,	Parrying		
-Bastard sword	Bastard sword	Slagsvärd	Common	1H	2.5	2	Arm	18	Heavy,	Smith	Sword			Heavy,	Pointed,	Edged,	Parrying	
-Longsword	Longsword/Claymore	Långsvärd	Common	2H	3	2	Arm	25	Heavy,	Smith	Sword			Heavy,	Pointed,	Edged,	Parrying	
-Greatsword	Greatsword	Tvåhandssvärd	Common	2H	2.5	3	Arm	40	Heavy,	Smith	Sword			Heavy,	Pointed,	Edged,	Parrying	
+Bastard sword	Bastard sword	Slagsvärd	Common	1H	2.5	2	Arm	18	Heavy	Smith	Sword			Heavy,	Pointed,	Edged,	Parrying	
+Longsword	Longsword/Claymore	Långsvärd	Common	2H	3	2	Arm	25	Heavy	Smith	Sword			Heavy,	Pointed,	Edged,	Parrying	
+Greatsword	Greatsword	Tvåhandssvärd	Common	2H	2.5	3	Arm	40	Heavy	Smith	Sword			Heavy,	Pointed,	Edged,	Parrying	
 Axe	Axe	Yxa	Common	1H	1	2	Arm	2	Normal	Smith	Axe			Edged,	Hook,	Shield-breaker		
 Battle axe	Battle axe	Stridsyxa	Common	1H	1.5	2	Arm	6	Heavy,	Smith	Axe			Heavy,	Edged,	Hook,	Shield-breaker	
 Greataxe	Greataxe	Tvåhandsyxa	Common	2H	2	3	Arm	24	Heavy,	Smith	Axe			Heavy,	Edged,	Hook,	Shield-breaker	
