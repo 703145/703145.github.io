@@ -92,22 +92,40 @@ td:nth-child(8) {
   font-size: 12px;
 }
 
-.header-image {
-  height: 300px;
+.header-image-top {
+  height: 100%;
+  width: 100%;
+  background-image: url('village-top.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
-.header-image-top {
-  background-image: url('village-top.jpg');
+.header-image-top h1 {
+  margin-left: 10%;
+  margin-top: 10%;
+  color: white;
+  font-size: 3rem;
+  font-family: 'IM Fell Great Primer', serif;
+  text-shadow: 2px 2px #000000;
 }
 
-.settings-wrapper {
+.header-image-bottom {
+  height: 200px;
   background-image: url('village-bottom.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 20px;
-  margin-top: 20px;
+}
+
+.header-image-bottom h2 {
+  margin-top: 50px;
+  color: white;
+  font-size: 2rem;
+  font-family: 'IM Fell Great Primer', serif;
+  text-emphasis-color: #000000;
+  text-shadow: 2px 2px #422222;
 }
