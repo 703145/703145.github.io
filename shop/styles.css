@@ -93,11 +93,9 @@ td:nth-child(8) {
 }
 
 .header-image-top {
-  height: 100%;
-  width: 100%;
+  height: 300px;
   background-image: url('village-top.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
   display: flex;
   justify-content: flex-start;
@@ -117,7 +115,6 @@ td:nth-child(8) {
   height: 200px;
   background-image: url('village-bottom.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
 }
 
