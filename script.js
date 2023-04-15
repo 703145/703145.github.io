@@ -1,5 +1,5 @@
 function generateShop() {
-  fetch('weapons.tsv')
+  fetch('weapons.tsv?v=' + Math.random())
     .then(response => response.text())
     .then(data => {
       const weapons = parseTsv(data);
