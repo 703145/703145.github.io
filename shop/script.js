@@ -14,7 +14,7 @@ function generateShop() {
         commonChance = 50;
         uncommonChance = 25;
         rareChance = 8;
-        maxItems = 7;
+        maxItems = 17;
       } else if (size === "well-stocked") {
         commonChance = 90;
         uncommonChance = 50;
