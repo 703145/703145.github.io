@@ -39,3 +39,7 @@ h1, h2, h3 {
 table {
   margin-top: 20px;
 }
+
+td {
+  text-align: left;
+}
