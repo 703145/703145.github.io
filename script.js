@@ -7,18 +7,18 @@ function generateShop() {
       const size = document.getElementById("shopSize").value;
       let commonChance = 90;
       let uncommonChance = 50;
-      let rareChance = 10;
+      let rareChance = 0;
       let maxItems = 4;
 
       if (size === "normal") {
         commonChance = 50;
-        uncommonChance = 30;
-        rareChance = 5;
+        uncommonChance = 25;
+        rareChance = 8;
         maxItems = 7;
       } else if (size === "well-stocked") {
-        commonChance = 20;
-        uncommonChance = 10;
-        rareChance = 2;
+        commonChance = 90;
+        uncommonChance = 50;
+        rareChance = 17;
         maxItems = 10;
       }
 
