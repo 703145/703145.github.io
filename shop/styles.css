@@ -71,9 +71,21 @@ td {
   padding-top: 1px;
 }
 
+td:nth-child(2) {
+  font-size: 11px;
+}
+
+td:nth-child(6) {
+  font-size: 11px;
+}
+
+td:nth-child(7) {
+  font-size: 11px;
+}
+
 td:nth-child(8) {
   text-align: left;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .header-image {
@@ -102,4 +114,19 @@ td:nth-child(8) {
 
 .header-image h1 {
   font-size: 4rem;
+}
+
+.setting-image {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-image: url('village-bottom.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.setting-container {
+  position: relative;
+  z-index: 1;
 }
