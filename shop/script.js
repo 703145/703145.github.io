@@ -81,20 +81,27 @@ function displayShop(shop) {
   shopList.innerHTML = "";
   for (let i = 0; i < shop.length; i++) {
     const row = document.createElement("tr");
+
+    const costCell = document.createElement("td");
+    costCell.innerText = shop[i].PRICE;
+    row.appendChild(costCell);
+
     const nameCell = document.createElement("td");
     nameCell.innerText = shop[i].WEAPON;
     nameCell.style.textAlign = "left"; // aligns the cell contents to the left
     row.appendChild(nameCell);
+    
     const damageCell = document.createElement("td");
     damageCell.innerText = shop[i].DAMAGE;
     row.appendChild(damageCell);
-    const costCell = document.createElement("td");
-    costCell.innerText = shop[i].PRICE;
-    row.appendChild(costCell);
+    
+
+    
     const featuresCell = document.createElement("td");
     featuresCell.innerText = shop[i].FEATURES;
     featuresCell.style.textAlign = "left"; // aligns the cell contents to the right
     row.appendChild(featuresCell);
+    
     shopList.appendChild(row);
   }
 }
