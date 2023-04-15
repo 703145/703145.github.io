@@ -149,7 +149,9 @@ function displayShop(shop) {
     row.appendChild(weightCell);
 
     const featureCell = document.createElement("td");
-    featureCell.innerText = shop[i].FEATURE;
+    const featureColumns = Object.keys(shop[i]).filter(column => column.startsWith("FEATURE"));
+    const features = featureColumns.map(column => shop[i][column]).join(", ");
+    featureCell.innerText = features;
     row.appendChild(featureCell);
 
     shopList.appendChild(row);
