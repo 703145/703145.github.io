@@ -141,7 +141,11 @@ function displayShop(shop) {
     row.appendChild(rangeCell);
 
     const weightCell = document.createElement("td");
-    weightCell.innerText = shop[i].WEIGHT;
+    if (shop[i].WEIGHT === "Normal") {
+      weightCell.innerText = "";
+    } else {
+      weightCell.innerText = shop[i].WEIGHT;
+    }
     row.appendChild(weightCell);
 
     const featureCell = document.createElement("td");
