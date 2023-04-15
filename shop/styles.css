@@ -40,6 +40,10 @@ table {
   margin-top: 20px;
 }
 
-th.left-align, td.left-align {
+th.weapon-name {
   text-align: left;
+}
+
+td {
+  text-align: center;
 }
