@@ -150,14 +150,14 @@ function displayShop(shop) {
 
     const featuresCell = document.createElement("td");
     const features = [];
-    for (let prop in shop[i]) {
-      if (prop.startsWith("FEATURES")) {
-        features.push(shop[i][prop]);
+    for (const [key, value] of Object.entries(shop[i])) {
+      if (key.startsWith("FEATURES")) {
+        features.push(value);
       }
     }
     featuresCell.innerText = features.join(", ");
     row.appendChild(featuresCell);
-    
+
     shopList.appendChild(row);
   }
 }
